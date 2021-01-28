@@ -29,7 +29,7 @@ nav .up{
   width: 35%;
   height: 70px;
   border: 1px solid black;
-  float: left;
+
   background-color: orange;
   vertical-align: middle;
 }
@@ -38,8 +38,11 @@ nav .up{
   width: 65%;
   height: 70px;
   border: 1px solid black;
-  float: left;
+
   background-color: yellow;
+}
+.search, .lang{
+  float: left;
 }
 
 /* regole main */
@@ -67,4 +70,37 @@ nav .up{
   /* debag */
   border: 1px solid black;
   background-color: blue;
+}
+
+/* sezione powerfull */
+.super{
+  width: 100%;
+  height:800px;
+  /* debag */
+  background-color: grey;
+}
+.super .cube{
+  width: 60%;
+  height: 300px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+
+.book, .crm{
+  float: left;
+  /* debag */
+  border: 1px solid black;
+
+}
+
+.book{
+  width: 15%;
+  min-height: 100px;
+  margin-left: 20%
+}
+
+.crm{
+  width: 45%;
+  min-height: 100px;
 }
