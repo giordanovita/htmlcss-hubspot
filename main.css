@@ -15,7 +15,7 @@ nav::after, .row::after{
 
 }
 
-.book, .crm, .column, .numberpiece, .logopiece, .enjoy, .smile, .columnfoot{
+.book, .crm, .column, .numberpiece, .logopiece, .enjoy, .smile, .columnfoot, .logofoot, .creditfoot{
   float: left;
   /* /* DEBUG:  */
   border: 1px solid black;
@@ -180,11 +180,35 @@ nav .up{
  padding-top: 60px;
  background-color: lightgrey;
 }
+/* prima riga */
+.footup{
+    min-height: 200px;
+}
 .columnfoot{
   width: calc(100% / 4 - 60px);
   min-height: 150px;
   margin-right: 80px;
 
+
 }
 .columnfoot:nth-child(4){
   margin-right: 0;
+}
+  /* seconda riga */
+.langueges{
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+}
+/* parte flottatta */
+.logofoot{
+  width: 50%;
+  min-height: 60px;
+}
+.creditfoot{
+  width: 50%;
+  min-height: 60px;
+
+}
