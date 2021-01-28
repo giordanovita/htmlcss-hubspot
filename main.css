@@ -1,0 +1,70 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.allinea{
+  width: 80%;
+  margin: auto;
+}
+nav::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* regole header */
+header nav{
+  width: 100%;
+  height: 140px;
+  /* default */
+  border-bottom: 1px solid black;
+}
+
+nav .up{
+  height: 70px;
+  border: 1px solid black;
+}
+.lang{
+  width: 35%;
+  height: 70px;
+  border: 1px solid black;
+  float: left;
+  background-color: orange;
+  vertical-align: middle;
+}
+
+.search{
+  width: 65%;
+  height: 70px;
+  border: 1px solid black;
+  float: left;
+  background-color: yellow;
+}
+
+/* regole main */
+
+/* jambo */
+.jambotron{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  /* debag */
+  background: lightblue;
+}
+.jambotext{
+  width: 40%;
+  height: 270px;
+  position: absolute;
+  left:10%;
+  top: 50px;
+  /* debag */
+  background-color: blue;
+}
+.jambobar{
+  width: 100%;
+  height: 70px;
+  /* debag */
+  border: 1px solid black;
+  background-color: blue;
+}
