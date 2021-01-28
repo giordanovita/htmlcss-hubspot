@@ -4,14 +4,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-.allinea{
+.allinea, .first-second{
   width: 80%;
   margin: auto;
 }
-nav::after{
+nav::after, .row::after{
   content: "";
   display: table;
   clear: both;
+
+}
+
+.book, .crm, .column{
+  float: left;
+  /* debag */
+  border: 1px solid black;
+
 }
 /* regole header */
 header nav{
@@ -80,27 +88,31 @@ nav .up{
   background-color: grey;
 }
 .super .cube{
-  width: 60%;
+  width: 100%;
   height: 300px;
   margin: auto;
   border: 1px solid black;
 }
 
+/* prima riga flottata */
 
-.book, .crm{
-  float: left;
-  /* debag */
-  border: 1px solid black;
-
-}
 
 .book{
-  width: 15%;
+  width: 35%;
   min-height: 100px;
-  margin-left: 20%
+
 }
 
 .crm{
-  width: 45%;
+  width: 65%;
   min-height: 100px;
+}
+/* seconda riga flottata */
+
+.column{
+  width: calc(100% / 3 - 50px);
+  min-height: 400px;
+}
+.center{
+  margin:0 75px;
 }
