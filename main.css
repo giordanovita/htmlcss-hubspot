@@ -122,7 +122,7 @@ nav .up{
   background-size: contain;
   background-position: left ;
   background-repeat: no-repeat;
-  margin-bottom: 50px;
+
   /* debag */
   /* background: lightblue; */
 }
@@ -160,6 +160,7 @@ nav .up{
   width: 100%;
   height:800px;
   background-color: #F4F9FD;
+  padding-top: 30px;
   /* debag */
   /* background-color: grey; */
 }
@@ -167,7 +168,7 @@ nav .up{
   width: 100%;
   min-height: 230px;
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
 }
 .cubetext .cube{
@@ -195,10 +196,15 @@ nav .up{
 
 /* prima riga flottata */
 
+.first {
+  background-color: white;
+  margin: 20px 0 80px 0;
+}
 
 .bookbox{
-  width: 35%;
+  width: 32%;
   height: 300px;
+
 }
 #bookimg{
 width: 190px;
@@ -207,30 +213,86 @@ padding: 30px 0;
 
 }
 #learnmore{
-
-margin:40px calc(50% - 50px);
+width: 35%;
+margin:40px calc(50% - 70px);
+padding: 3% 7%;
+/* da rivedere!!!!!!!! */
 
 }
 .crm{
-  width: 65%;
+  width: 68%;
   height: 300px;
 }
+.crmtitle{
+  margin: 40px 0;
+}
+.crmsubtitle{
+  margin-top: 50px;
+  display: inline-block;
+}
+.crmtext{
+  width: 80%;
+
+}
+.greyline{
+  height: 10px;
+  width: 60%;
+  display: inline-block;
+  margin-left: 20px;
+  border-bottom: 1.5px solid grey;
+  margin-bottom: 5px;
+
+}
+.crmlist{
+  margin-top: 30px;
+}
+.crmlist .listcheck{
+  margin-right: 20px;
+}
+
+.fa-check-circle{
+  font-size: 20px;
+  color:#FE775A;
+}
+
 /* seconda riga flottata */
 
 .column{
   width: calc(100% / 3 - 50px);
   min-height: 400px;
+  background-color: white;
+  text-align: center;
 }
 .center{
   margin:0 75px;
 }
 
+.imgcolumn{
+  height: 100px;
+  margin:20px calc(50% - 25%);
+}
+.columntext{
+  width: 80%;
+  margin: auto;
+  padding: 30px 0;
+}
+.short{
+  width: 85%;
+  margin: auto;
+  border-bottom: 2.5px solid grey;
+  margin-top: 25px;
+}
+
+#lastshort{
+  margin-top: 6px;
+}
 /* sezione maxi-tab */
 .maxi{
   width: 100%;
   min-height: 400px;
   /* debag */
   background-color: blue;
+  margin-top: 350px;
 }
 .tab{
   min-height: 450px;
