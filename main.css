@@ -17,10 +17,10 @@ nav::after, .row::after{
   clear: both;
 }
 
-.search, .lang, .book, .crm, .column, .numberpiece, .logopiece, .enjoy, .smile, .columnfoot, .logofoot, .creditfoot{
+.search, .lang, .bookbox, .crm, .column, .numberpiece, .logopiece, .enjoy, .smile, .columnfoot, .logofoot, .creditfoot{
   float: left;
   /* /* DEBUG:  */
-  /* border: 1px solid black; */
+  border: 1px solid black;
 
 }
 a{
@@ -82,13 +82,22 @@ nav .up{
   border-left: 1px solid grey;
 }
 .actionup{
-  margin-left: 55%;
+  margin-left: 53%;
 }
 .button{
   border: 1px solid black;
   color:black;
-  border-radius: 4px;
-  padding:5px;
+  border-radius: 2px;
+  padding:8px;
+}
+#login{
+  color: #FE775A;
+  border-color:  #FE775A;
+}
+.hubspot{
+  background-color: #FE775A;
+  color: white;
+  border: none;
 }
 #logohubhead{
   padding-top: 15px;
@@ -110,54 +119,101 @@ nav .up{
   height: 650px;
   position: relative;
   background-image: url(img/jumbotron.png);
-  background-size: cover;
+  background-size: contain;
   background-position: left ;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
   /* debag */
   /* background: lightblue; */
 }
-.jambotext{
-  width: 40%;
-  height: 270px;
+.jambobox{
+  width: 30%;
+  height:  385px;
   position: absolute;
   left:10%;
   top: 50px;
   /* debag */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
-.jambobar{
-  width: 100%;
-  height: 70px;
-  /* debag */
-  border: 1px solid black;
-  background-color: blue;
+.titlejambobox{
+  font-size: 35px;
+  padding-bottom: 20px;
+
+}
+.textjambobox{
+  font-size: 13px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+#jambobotton{
+  padding:3% 7%;
+}
+
+.trialfree{
+  font-size: 13px;
+  display: block;
+  margin-top: 50px;
 }
 
 /* sezione super fsection */
 .super{
   width: 100%;
   height:800px;
+  background-color: #F4F9FD;
   /* debag */
-  background-color: grey;
+  /* background-color: grey; */
 }
-.super .cube{
+.super .cubetext{
   width: 100%;
-  height: 300px;
+  min-height: 230px;
   margin: auto;
   border: 1px solid black;
+
+}
+.cubetext .cube{
+  min-height: 150px;
+  width: 100%;
+  text-align: center;
+
+}
+#cubeimg{
+
+  width: 250px;
+  margin: 10px calc(50% - 250px / 2) 0 calc(50% - 250px / 2) ;
+}
+
+.cubetitle{
+  font-size:30px;
+
+}
+.cubeparagraph{
+  width: 72%;
+  margin: auto;
+  padding: 20px 0;
+
 }
 
 /* prima riga flottata */
 
 
-.book{
+.bookbox{
   width: 35%;
-  min-height: 100px;
+  height: 300px;
+}
+#bookimg{
+width: 190px;
+margin:10px calc(50% - 95px);
+padding: 30px 0;
 
 }
+#learnmore{
 
+margin:40px calc(50% - 50px);
+
+}
 .crm{
   width: 65%;
-  min-height: 100px;
+  height: 300px;
 }
 /* seconda riga flottata */
 
