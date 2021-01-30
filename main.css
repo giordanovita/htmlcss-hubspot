@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    color: #364A5E;
 }
 .allinea{
   width: 80%;
@@ -17,10 +18,10 @@ nav::after, .row::after{
   clear: both;
 }
 
-.search, .lang, .bookbox, .crm, .column, .numberpiece, .logopiece, .enjoy, .smile, .columnfoot, .logofoot, .creditfoot{
+.search, .lang, .bookbox, .crm, .column, .numberpiece, .logopiece, .enjoy, .smile, .columnfoot, .logofoot, .creditfoot, .square, .logobox{
   float: left;
   /* /* DEBUG:  */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
 }
 a{
@@ -44,7 +45,7 @@ header nav{
   top: 0;
   z-index: 500;
   line-height: 60px;
-  background-color: #F4F9FD;
+  /* background-color: #F4F9FD; */
 
   /* default */
   /* border-bottom: 1px solid black; */
@@ -52,23 +53,34 @@ header nav{
 
 nav .up{
   height: 70px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #364A5E;
+
   /* DEBUG:  */
   /* border: 1px solid black; */
 }
+.backgrnavup{
+    background-color: #F4F9FD;
+}
+
+
 .lang{
   width: 50%;
   height: 70px;
   /* border: 1px solid black; */
 
-
 }
+
 
 .search{
   width: 50%;
   height: 70px;
   /* border: 1px solid black; */
-
+}
+.fa-search{
+  color:#08A8BF;
+}
+.fa-search:hover{
+  color: blue;
 }
 .select{
   border-right: 1px solid grey;
@@ -87,7 +99,7 @@ nav .up{
 .button{
   border: 1px solid black;
   color:black;
-  border-radius: 2px;
+  border-radius: 5px;
   padding:8px;
 }
 #login{
@@ -108,6 +120,15 @@ nav .up{
 .actiondouwn ul{
   margin-left: 11%;
 }
+.backgrnavdouwn{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  z-index: 500;
+}
+
+
+
 
 /* regole main */
 .distanziatore{
@@ -120,7 +141,7 @@ nav .up{
   position: relative;
   background-image: url(img/jumbotron.png);
   background-size: contain;
-  background-position: left ;
+  background-position: right top;
   background-repeat: no-repeat;
 
   /* debag */
@@ -145,7 +166,10 @@ nav .up{
   margin-bottom: 30px;
   text-align: justify;
 }
-#jambobotton{
+/* #jambobotton{
+  padding:3% 7%;
+} */
+.jambobutton{
   padding:3% 7%;
 }
 
@@ -153,6 +177,7 @@ nav .up{
   font-size: 13px;
   display: block;
   margin-top: 50px;
+  color: #364A5E;
 }
 
 /* sezione super fsection */
@@ -198,7 +223,7 @@ nav .up{
 
 .first {
   background-color: white;
-  margin: 20px 0 80px 0;
+  margin: 20px 0 0 0;
 }
 
 .bookbox{
@@ -212,10 +237,12 @@ margin:10px calc(50% - 95px);
 padding: 30px 0;
 
 }
-#learnmore{
+.learnmore{
 width: 35%;
 margin:40px calc(50% - 70px);
+text-align: center;
 padding: 3% 7%;
+
 /* da rivedere!!!!!!!! */
 
 }
@@ -256,7 +283,13 @@ padding: 3% 7%;
 }
 
 /* seconda riga flottata */
+.backgr{
+  background-color:  #F4F9FD;
+    padding-bottom: 50px;
+}
+.second{
 
+}
 .column{
   width: calc(100% / 3 - 50px);
   min-height: 400px;
@@ -281,83 +314,278 @@ padding: 3% 7%;
   margin: auto;
   border-bottom: 2.5px solid grey;
   margin-top: 25px;
+  margin-bottom: 30px;
+
 }
 
 #lastshort{
   margin-top: 6px;
 }
+
+.buttonlistcolumn{
+  width: 100%;
+  margin: 40px 0 30px 0;
+
+}
+
+
+
+.motherlistcolumn{
+  min-height: 160px;
+  margin-top: 35px;
+  /* DEBUG:  */
+
+
+}
+
+.listcolumn{
+  display: block;
+  text-align: left;
+  margin: 10px 7%;
+
+}
+.space{
+  padding-right: 18px;
+}
+
 /* sezione maxi-tab */
 .maxi{
   width: 100%;
   min-height: 400px;
   /* debag */
-  background-color: blue;
-  margin-top: 350px;
+  background-color: #00A8b9;
+  /* margin-top: 350px; */
 }
 .tab{
   min-height: 450px;
   /* debag */
-  border: 1px solid black;
-}
-.tabtext{
-  text-align: center;
 
 }
-.tabnumb{
+.tabconteined{
+  text-align: center;
+  color: white;
+}
+
+
+
+
+.tabtitle{
+  width: 80%;
+  margin: auto;
+  font-size: 28px;
+  padding: 20px 0;
+
+
+}
+.tabtext{
+padding-bottom: 50px;
+
+
+
+}
+.tabbigbox{
   min-height: 300px;
   /* /* DEBUG:  */
-  background-color: lightblue;
-  border: 1px solid red;
+
+  /* border: 1px solid red; */
 }
+
+.square{
+  width: 25%;
+  min-height: 150px;
+  padding: 20px;
+  /* text-align: center;
+  color: white; */
+  /* border: 1px solid black; */
+}
+.upper{
+  border-bottom: 1.5px solid white;
+  border-right:  1.5px solid white;
+}
+
+.lower{
+  padding-top: 20px;
+  margin-bottom: 80px;
+  border-right:  1.5px solid white;
+}
+.end{
+  border-right: none;
+}
+
+.tabnumbers{
+  font-size: 40px;
+  margin: 10px 0;
+}
+.plus{
+  font-size: 35px;
+  font-weight: normal;
+  margin-left: 10px;
+
+}
+#plusfirst{
+  margin-left: 0;
+}
+#lastsquare{
+  padding-top: 12px;
+}
+
+
+
 /* sezione secsection con due righe flottate, ogni riga da du elementi */
 
 /* prima riga flottata */
 .numberpiece{
   width: 35%;
   min-height: 190px;
-  /* DEBUG:  */
-  background-color: orange;
 
+  /* DEBUG:  */
+  /* background-color: orange; */
+
+}
+.conteinerdata{
+  width: 70%;
+  min-height: 160px;
+  /* border: 1px solid black; */
+  margin:0 15%;
+}
+.datanumbers{
+  font-size: 50px;
+  padding: 30px 0 20px 0;
+}
+.dataparagraph{
+  width: 80%;
+  /* da rivedere spaziatura tra righe */
+
+}
+.datanumbers, .dataparagraph{
+  /* margin-left: 65px; */
 }
 .logopiece{
   width: 65%;
   min-height: 140px;
+  padding: 30px 0 15px 0;
+
   /* DEBUG:  */
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
 }
+.logobox{
+  width: 20%;
+  min-height: 60px;
+
+  margin:10px 0 10px 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#atlassian{
+  background-image: url(img/atlassian.png);
+}
+#doordash{
+  background-image: url(img/doordash.png);
+}
+#g2{
+  background-image: url(img/g2crowd-logo@2x.png);
+}
+#purple{
+  background-image: url(img/purple-logo@2x.png);
+  margin-right: 0;
+}
+#subaru{
+  background-image: url(img/subaru.png);
+}
+#wistia{
+  background-image: url(img/wistia.png);
+}
+#classpass{
+  background-image: url(img/classpass.png);
+}
+#vmware{
+  background-image: url(img/vmware.png);
+  margin-right: 0;
+}
+
 /* seconda riga flottata */
-.enjoy{
-  width: 35%;
-  min-height: 160px;
-  /* DEBUG:  */
-  background-color: blue;
+.enjoy, .smile{
+  min-height: 450px;
+  margin-top: 30px;
 }
-.smile{
-  width: 65%;
-  min-height: 160px;
+
+.enjoy{
+  width: 40%;
+
   /* DEBUG:  */
-  background-color: lightblue;
+  /* background-color: blue; */
+}
+.enjoytitle{
+  font-size: 30px;
+  margin: 25px 0;
+}
+.enjoyparagraph{
+padding: 20px 0 80px 0;
+}
+
+.smile{
+  width: 60%;
+
+  /* DEBUG:  */
+  /* background-color: lightblue; */
+}
+.imgsmile{
+  width: 50%;
+  height: 380px;
+  margin-left: 50%;
 }
 
 /* inizio footer  */
 .foot{
   /* DEBUG:  */
  padding-top: 60px;
- background-color: lightgrey;
+ background-color: #32495B;
 }
 /* prima riga */
 .footup{
-    min-height: 200px;
+    min-height: 330px;
 }
 .columnfoot{
-  width: calc(100% / 4 - 60px);
+  width: calc(100% / 4 - 30px);
   min-height: 150px;
-  margin-right: 80px;
-
-
+  margin-right: 40px;
 }
 .columnfoot:nth-child(4){
   margin-right: 0;
+}
+
+.titlelistfootup{
+  color: white;
+  padding-bottom: 15px;
+
+}
+.linkfoot{
+  color: #B8BABB;
+
+}
+
+.footlistup{
+  display: block;
+  margin: 10px 0;
+}
+
+.buttonfoot{
+  color:#32495B ;
+  background:#B8BABB;
+}
+#support{
+  margin:25px 0;
+}
+.socialicons{
+  color:#B8BABB;
+  padding-right: 27px;
+}
+.socialicons:hover{
+  text-decoration: none;
+  font-size: 20px;
 }
   /* seconda riga */
 .langueges{
@@ -367,13 +595,21 @@ padding: 3% 7%;
   border-bottom: 1px solid grey;
   margin-bottom: 20px;
 }
+.linklang, .copyright{
+    color: #B8BABB;
+
+}
+.langlist{
+  padding-top: 10px;
+}
 /* parte flottatta */
 .logofoot{
   width: 50%;
   min-height: 60px;
 }
+
 .creditfoot{
   width: 50%;
   min-height: 60px;
-
+  padding-left: 30%;
 }
