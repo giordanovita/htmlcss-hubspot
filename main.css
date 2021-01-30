@@ -53,13 +53,14 @@ header nav{
 
 nav .up{
   height: 70px;
-  border-bottom: 1px solid #364A5E;
+
 
   /* DEBUG:  */
   /* border: 1px solid black; */
 }
 .backgrnavup{
     background-color: #F4F9FD;
+    border-bottom: 1px solid #364A5E;
 }
 
 
