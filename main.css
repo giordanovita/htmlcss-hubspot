@@ -7,6 +7,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #33475b;
+
 }
 .allinea{
   width: 80%;
@@ -20,9 +21,7 @@ nav::after, .row::after{
 
 .search, .lang, .bookbox, .crm, .column, .numberpiece, .logopiece, .enjoy, .smile, .columnfoot, .logofoot, .creditfoot, .square, .logobox{
   float: left;
-  /* /* DEBUG:  */
-  /* border: 1px solid black; */
-
+  
 }
 a{
   text-decoration: none;
@@ -30,6 +29,7 @@ a{
 }
 a:hover{
   text-decoration: underline;
+  color: #0091ae;
 }
 li{
   list-style-type: none;
@@ -45,18 +45,12 @@ header nav{
   top: 0;
   z-index: 500;
   line-height: 60px;
-  /* background-color: #F4F9FD; */
 
-  /* default */
-  /* border-bottom: 1px solid black; */
 }
 
 nav .up{
   height: 70px;
 
-
-  /* DEBUG:  */
-  /* border: 1px solid black; */
 }
 .backgrnavup{
     background-color: #F4F9FD;
@@ -67,7 +61,7 @@ nav .up{
 .lang{
   width: 50%;
   height: 70px;
-  /* border: 1px solid black; */
+
 
 }
 
@@ -75,7 +69,7 @@ nav .up{
 .search{
   width: 50%;
   height: 70px;
-  /* border: 1px solid black; */
+
 }
 .fa-search{
   color:#08A8BF;
@@ -98,14 +92,12 @@ nav .up{
   margin-left: 53%;
 }
 .button{
-  border: 1px solid black;
-  color:black;
+  border: 1px solid #FE775A;
   border-radius: 5px;
   padding:8px;
 }
 #login{
   color: #FE775A;
-  border-color:  #FE775A;
 }
 .hubspot{
   background-color: #FE775A;
@@ -116,7 +108,9 @@ nav .up{
   padding-top: 15px;
 }
 .price{
-  list-style-type: none;
+  color: black;
+  font-size: 13px;
+  margin-right:7px;
 }
 .actiondouwn ul{
   margin-left: 11%;
@@ -145,8 +139,6 @@ nav .up{
   background-position: right top;
   background-repeat: no-repeat;
 
-  /* debag */
-  /* background: lightblue; */
 }
 .jambobox{
   width: 30%;
@@ -154,8 +146,7 @@ nav .up{
   position: absolute;
   left:10%;
   top: 50px;
-  /* debag */
-  /* border: 1px solid black; */
+
 }
 .titlejambobox{
   font-size: 35px;
@@ -165,11 +156,9 @@ nav .up{
 .textjambobox{
   font-size: 13px;
   margin-bottom: 90px;
-  text-align: justify;
+  word-spacing: 2px;
 }
-/* #jambobotton{
-  padding:3% 7%;
-} */
+
 .jambobutton{
   padding:3% 7%;
 }
@@ -200,14 +189,14 @@ nav .up{
   height:800px;
   background-color: #F4F9FD;
   padding-top: 30px;
-  /* debag */
-  /* background-color: grey; */
+
 }
 .super .cubetext{
   width: 100%;
   min-height: 230px;
   margin: auto;
-  /* border: 1px solid black; */
+  word-spacing: 2px;
+
 
 }
 .cubetext .cube{
@@ -230,6 +219,7 @@ nav .up{
   width: 72%;
   margin: auto;
   padding: 20px 0;
+  word-spacing: 2px;
 
 }
 
@@ -238,6 +228,7 @@ nav .up{
 .first {
   background-color: white;
   margin: 20px 0 0 0;
+  box-shadow: 0 0 11px #eaf0f6;
 }
 
 .bookbox{
@@ -257,13 +248,11 @@ margin:40px calc(50% - 70px);
 text-align: center;
 padding: 3% 7%;
 
-/* da rivedere!!!!!!!! */
-
 }
 .crm{
   width: 68%;
   height: 300px;
-  box-shadow: 0 0 11px #eaf0f6;
+
 }
 .crmtitle{
   margin: 40px 0;
@@ -274,6 +263,7 @@ padding: 3% 7%;
 }
 .crmtext{
   width: 80%;
+  word-spacing: 2px;
 
 }
 .greyline{
@@ -293,7 +283,7 @@ padding: 3% 7%;
 }
 
 .fa-check-circle{
-  font-size: 20px;
+  font-size: 18px;
   color:#FE775A;
 }
 
@@ -302,15 +292,14 @@ padding: 3% 7%;
   background-color:  #F4F9FD;
     padding-bottom: 50px;
 }
-.second{
 
-}
 .column{
   width: calc(100% / 3 - 50px);
   min-height: 400px;
   background-color: white;
   text-align: center;
   box-shadow: 0 0 11px #eaf0f6;
+
 }
 .center{
   margin:0 75px;
@@ -331,6 +320,7 @@ padding: 3% 7%;
   border-bottom: 2.5px solid grey;
   margin-top: 25px;
   margin-bottom: 30px;
+  word-spacing: 2px;
 
 }
 
@@ -338,11 +328,7 @@ padding: 3% 7%;
   margin-top: 6px;
 }
 
-.buttonlistcolumn{
-  width: 100%;
-  margin: 40px 0 30px 0;
 
-}
 
 
 
@@ -359,20 +345,23 @@ padding: 3% 7%;
   text-align: left;
   margin: 10px 7%;
 
+
 }
 .space{
   padding-right: 18px;
+}
+
+.columnlearmorebutton{
+  margin-bottom: 30px;
 }
 
 /* sezione maxi-tab */
 .maxi{
   width: 100%;
   min-height: 400px;
-  /* debag */
   background-color: #00A8b9;
   background-image: linear-gradient(45deg
     ,#00a4bd,#00bda5);
-  /* margin-top: 350px; */
 }
 .tab{
   min-height: 450px;
@@ -397,6 +386,7 @@ padding: 3% 7%;
 }
 .tabtext{
 padding-bottom: 50px;
+word-spacing: 2px;
 
 
 
@@ -405,16 +395,14 @@ padding-bottom: 50px;
   min-height: 300px;
   /* /* DEBUG:  */
 
-  /* border: 1px solid red; */
+
 }
 
 .square{
   width: 25%;
   min-height: 150px;
   padding: 20px;
-  /* text-align: center;
-  color: white; */
-  /* border: 1px solid black; */
+
 }
 .upper{
   border-bottom: 1.5px solid white;
@@ -456,14 +444,13 @@ padding-bottom: 50px;
   width: 35%;
   min-height: 190px;
 
-  /* DEBUG:  */
-  /* background-color: orange; */
+
 
 }
 .conteinerdata{
   width: 70%;
   min-height: 160px;
-  /* border: 1px solid black; */
+
   margin:0 15%;
 }
 .datanumbers{
@@ -472,24 +459,21 @@ padding-bottom: 50px;
 }
 .dataparagraph{
   width: 80%;
-  /* da rivedere spaziatura tra righe */
+  word-spacing: 2.5px;
+  line-height: 23px;
 
 }
-.datanumbers, .dataparagraph{
-  /* margin-left: 65px; */
-}
+
 .logopiece{
   width: 65%;
   min-height: 140px;
   padding: 30px 0 15px 0;
 
-  /* DEBUG:  */
-  /* background-color: lightgreen; */
+
 }
 .logobox{
   width: 20%;
   min-height: 60px;
-
   margin:10px 0 10px 5%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -534,8 +518,6 @@ padding-bottom: 50px;
 .enjoy{
   width: 40%;
 
-  /* DEBUG:  */
-  /* background-color: blue; */
 }
 .enjoytitle{
   font-size: 30px;
@@ -543,13 +525,14 @@ padding-bottom: 50px;
 }
 .enjoyparagraph{
 padding: 20px 0 80px 0;
+word-spacing: 2.5px;
+line-height: 19px;
+
 }
 
 .smile{
   width: 60%;
 
-  /* DEBUG:  */
-  /* background-color: lightblue; */
 }
 .imgsmile{
   width: 50%;
@@ -605,7 +588,7 @@ padding: 20px 0 80px 0;
 .socialicons:hover{
   text-decoration: none;
   font-size: 20px;
-  color: #0091ae;
+
 }
   /* seconda riga */
 .langueges{
