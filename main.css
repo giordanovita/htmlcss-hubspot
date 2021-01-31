@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    color: #364A5E;
+    color: #33475b;
 }
 .allinea{
   width: 80%;
@@ -164,7 +164,7 @@ nav .up{
 }
 .textjambobox{
   font-size: 13px;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
   text-align: justify;
 }
 /* #jambobotton{
@@ -179,6 +179,19 @@ nav .up{
   display: block;
   margin-top: 50px;
   color: #364A5E;
+}
+.greenbar{
+  width: 100%;
+  height: 77px;
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  background-color: #AFEBE4;
+  border: 3px solid #3B5467;
+  border-left: none;
+  border-right: none;
+
+
 }
 
 /* sezione super fsection */
@@ -250,6 +263,7 @@ padding: 3% 7%;
 .crm{
   width: 68%;
   height: 300px;
+  box-shadow: 0 0 11px #eaf0f6;
 }
 .crmtitle{
   margin: 40px 0;
@@ -296,6 +310,7 @@ padding: 3% 7%;
   min-height: 400px;
   background-color: white;
   text-align: center;
+  box-shadow: 0 0 11px #eaf0f6;
 }
 .center{
   margin:0 75px;
@@ -355,6 +370,8 @@ padding: 3% 7%;
   min-height: 400px;
   /* debag */
   background-color: #00A8b9;
+  background-image: linear-gradient(45deg
+    ,#00a4bd,#00bda5);
   /* margin-top: 350px; */
 }
 .tab{
@@ -479,6 +496,7 @@ padding-bottom: 50px;
   background-position: center;
 
 }
+
 
 #atlassian{
   background-image: url(img/atlassian.png);
