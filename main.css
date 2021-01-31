@@ -190,7 +190,7 @@ nav .up{
   border: 3px solid #3B5467;
   border-left: none;
   border-right: none;
-
+  background-image: radial-gradient(circle at 22.84% 50%, #AFEBE4 0, #6cfeb9 25%, #AFEBE4 50%, #AFEBE4 75%,#AFEBE4 100%);
 
 }
 
@@ -582,7 +582,7 @@ padding: 20px 0 80px 0;
 
 }
 .linkfoot{
-  color: #B8BABB;
+  color: #cbd6e2;
 
 }
 
@@ -593,7 +593,7 @@ padding: 20px 0 80px 0;
 
 .buttonfoot{
   color:#32495B ;
-  background:#B8BABB;
+  background:#cbd6e2;
 }
 #support{
   margin:25px 0;
@@ -605,6 +605,7 @@ padding: 20px 0 80px 0;
 .socialicons:hover{
   text-decoration: none;
   font-size: 20px;
+  color: #0091ae;
 }
   /* seconda riga */
 .langueges{
@@ -615,7 +616,7 @@ padding: 20px 0 80px 0;
   margin-bottom: 20px;
 }
 .linklang, .copyright{
-    color: #B8BABB;
+    color: #cbd6e2;
 
 }
 .langlist{
