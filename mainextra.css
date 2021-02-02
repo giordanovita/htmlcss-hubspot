@@ -50,7 +50,7 @@ header nav{
 
 nav .up{
   height: 70px;
-    line-height: 60px;
+  line-height: 60px;
 
 }
 .backgrnavup{
@@ -62,15 +62,11 @@ nav .up{
 .lang{
   width: 50%;
   height: 70px;
-
-
 }
-
 
 .search{
   width: 50%;
   height: 70px;
-
 }
 .fa-search{
   color:#08A8BF;
@@ -119,9 +115,10 @@ nav .up{
 .listadrop. .itemsdroplist:nth-child(5){
   margin:0 ;
 }
-.itemsdroplist > .padre.one{
-  color:#33475b;
 
+.fa-chevron-down{
+  font-size: 10px;
+  margin-left: 5px;
 }
 
 .ombra{
@@ -172,17 +169,12 @@ nav .up{
   left: 185px;
 }
 
-
-
-
 .one:hover + .ombra.uno{
   display: inline-block;
   position: fixed;
   top:100px;
   right: 0;
 }
-
-
 
 /*softwaresection */
 .ombra.uno{

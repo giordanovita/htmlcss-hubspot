@@ -13,7 +13,7 @@ body{
   width: 80%;
   margin: auto;
 }
-nav::after, .row::after{
+.nav:after, .row::after{
   content: "";
   display: table;
   clear: both;
@@ -113,7 +113,7 @@ nav .up{
   margin-right:7px;
 }
 .actiondouwn ul{
-  margin-left: 11%;
+  margin-left: 16%;
 }
 .backgrnavdouwn{
   width: 100%;
@@ -336,7 +336,7 @@ padding: 3% 7%;
 .motherlistcolumn{
   min-height: 160px;
   margin-top: 35px;
-  /* DEBUG:  */
+
 
 
 }
@@ -483,9 +483,11 @@ word-spacing: 2px;
 }
 
 
+
 #atlassian{
   background-image: url(img/atlassian.png);
-}
+  }
+
 #doordash{
   background-image: url(img/doordash.png);
 }
@@ -505,10 +507,11 @@ word-spacing: 2px;
 #classpass{
   background-image: url(img/classpass.png);
 }
-#vmware{
+ #vmware{
   background-image: url(img/vmware.png);
   margin-right: 0;
 }
+
 
 /* seconda riga flottata */
 .enjoy, .smile{
@@ -528,12 +531,10 @@ word-spacing: 2px;
 padding: 20px 0 80px 0;
 word-spacing: 2.5px;
 line-height: 19px;
-
 }
 
 .smile{
   width: 60%;
-
 }
 .imgsmile{
   width: 50%;
@@ -567,7 +568,6 @@ line-height: 19px;
 }
 .linkfoot{
   color: #cbd6e2;
-
 }
 
 .footlistup{
