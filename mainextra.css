@@ -1,0 +1,777 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #33475b;
+
+}
+.allinea{
+  width: 80%;
+  margin: auto;
+}
+nav::after, .row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.search, .lang, .bookbox, .crm, .column, .numberpiece, .logopiece, .enjoy, .smile, .columnfoot, .logofoot, .creditfoot, .square, .logobox, .softwaresection, .boxsoftsctn{
+  float: left;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+  color: #0091ae;
+}
+li{
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 10px;
+}
+/* regole header */
+
+header nav{
+  width: 100%;
+  min-height: 140px;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+
+
+}
+
+nav .up{
+  height: 70px;
+    line-height: 60px;
+
+}
+.backgrnavup{
+    background-color: #F4F9FD;
+    border-bottom: 1px solid #364A5E;
+}
+
+
+.lang{
+  width: 50%;
+  height: 70px;
+
+
+}
+
+
+.search{
+  width: 50%;
+  height: 70px;
+
+}
+.fa-search{
+  color:#08A8BF;
+}
+.fa-search:hover{
+  color: blue;
+}
+.select.lingua{
+  border-right: 1px solid grey;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 0;
+
+}
+.contactus{
+  padding-left:  15px;
+  border-left: 1px solid grey;
+}
+.actionup{
+  margin-left: 53%;
+
+}
+.button{
+  border: 1px solid #FE775A;
+  border-radius: 5px;
+  padding:8px;
+}
+#login{
+  color: #FE775A;
+}
+.hubspot{
+  background-color: #FE775A;
+  color: white;
+  border: none;
+}
+#logohubhead{
+  padding-top: 15px;
+}
+/* parte dedicata alla dropdouwn list in hover */
+
+.listadrop .itemsdroplist{
+  margin:0 15px 0 0;
+  color: #33475b;
+
+}
+.listadrop. .itemsdroplist:nth-child(5){
+  margin:0 ;
+}
+.itemsdroplist > .padre.one{
+  color:#33475b;
+
+}
+
+.ombra{
+
+  position: relative;
+  min-width: 580px;
+  min-height: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid #32557f;
+  z-index: 505;
+  display: none;
+
+}
+.ombra::before, .ombra::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    z-index: 2;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border: solid 15px transparent;
+    border-top: 0;
+    border-bottom-color: #32557f;
+  }
+
+  .ombra::before {
+    top: -18px;
+    z-index: 1;
+    border-bottom-color: transparent;
+  }
+
+/* selezona lingua */
+.ombra.lingua{
+  min-width: 100px;
+  background-color:#F4F9FD;
+}
+.ombra.lingua ul li{
+  display: block;
+}
+.padre.lingua:hover + .ombra.lingua{
+  display: inline-block;
+  position: fixed;
+  top:50px;
+  left: 185px;
+}
+
+
+
+
+.one:hover + .ombra.uno{
+  display: inline-block;
+  position: fixed;
+  top:100px;
+  right: 0;
+}
+
+
+
+/*softwaresection */
+.ombra.uno{
+  width: 650px;
+}
+.softwaresection.left{
+  width: 30%;
+  height: 380px;
+  background-color: #F4F9FD;
+  padding: 40px 20px 0 20px;
+  background-image: url(img/logo.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+
+.sftwtitle{
+  padding-bottom: 10px;
+  margin-top: revert;
+
+  color:#33475b;
+}
+.sftwlink{
+  color: blue;
+
+}
+.boxsoftsctn{
+  width: calc(100% / 2 - 30px);
+  height: 130px;
+  box-shadow: 0 0 11px #eaf0f6;
+  margin-top: 25px;
+
+}
+.primo{
+  margin-right: 25px;
+}
+
+.softwaresection.right{
+  width: 70%;
+  height: 380px;
+  background-color: #cbd6e2;
+  padding: 20px;
+}
+
+#marketplace{
+  display: inline-block;
+
+}
+
+.far, .fa-arrow-alt-circle-right{
+  color: #FE775A;
+}
+
+.backgrnavdouwn{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  z-index: 500;
+}
+
+
+
+
+/* regole main */
+.distanziatore{
+  margin-top: 140px;
+}
+/* jambo */
+.jambotron{
+  width: 100%;
+  height: 650px;
+  position: relative;
+  background-image: url(img/jumbotron.png);
+  background-size: contain;
+  background-position: right top;
+  background-repeat: no-repeat;
+
+}
+.jambobox{
+  width: 30%;
+  height:  385px;
+  position: absolute;
+  left:10%;
+  top: 50px;
+
+}
+.titlejambobox{
+  font-size: 35px;
+  padding-bottom: 20px;
+
+}
+.textjambobox{
+  font-size: 13px;
+  margin-bottom: 90px;
+  word-spacing: 2px;
+}
+
+.jambobutton{
+  padding:3% 7%;
+}
+
+.trialfree{
+  font-size: 13px;
+  display: block;
+  margin-top: 50px;
+  color: #364A5E;
+}
+.greenbar{
+  width: 100%;
+  height: 77px;
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  background-color: #AFEBE4;
+  border: 3px solid #3B5467;
+  border-left: none;
+  border-right: none;
+  background-image: radial-gradient(circle at 22.84% 50%, #AFEBE4 0, #6cfeb9 25%, #AFEBE4 50%, #AFEBE4 75%,#AFEBE4 100%);
+
+}
+
+/* sezione super fsection */
+.super{
+  width: 100%;
+  height:800px;
+  background-color: #F4F9FD;
+  padding-top: 30px;
+
+}
+.super .cubetext{
+  width: 100%;
+  min-height: 230px;
+  margin: auto;
+  word-spacing: 2px;
+
+
+}
+.cubetext .cube{
+  min-height: 150px;
+  width: 100%;
+  text-align: center;
+
+}
+#cubeimg{
+
+  width: 250px;
+  margin: 10px calc(50% - 250px / 2) 0 calc(50% - 250px / 2) ;
+}
+
+.cubetitle{
+  font-size:30px;
+
+}
+.cubeparagraph{
+  width: 72%;
+  margin: auto;
+  padding: 20px 0;
+  word-spacing: 2px;
+
+}
+
+/* prima riga flottata */
+
+.first {
+  background-color: white;
+  margin: 20px 0 0 0;
+  box-shadow: 0 0 11px #eaf0f6;
+}
+
+.bookbox{
+  width: 32%;
+  height: 300px;
+
+}
+#bookimg{
+width: 190px;
+margin:10px calc(50% - 95px);
+padding: 30px 0;
+
+}
+.learnmore{
+width: 35%;
+margin:40px calc(50% - 70px);
+text-align: center;
+padding: 3% 7%;
+
+}
+.crm{
+  width: 68%;
+  height: 300px;
+
+}
+.crmtitle{
+  margin: 40px 0;
+}
+.crmsubtitle{
+  margin-top: 50px;
+  display: inline-block;
+}
+.crmtext{
+  width: 80%;
+  word-spacing: 2px;
+
+}
+.greyline{
+  height: 10px;
+  width: 60%;
+  display: inline-block;
+  margin-left: 20px;
+  border-bottom: 1.5px solid grey;
+  margin-bottom: 5px;
+
+}
+.crmlist{
+  margin-top: 30px;
+}
+.crmlist .listcheck{
+  margin-right: 20px;
+}
+
+.fa-check-circle{
+  font-size: 18px;
+  color:#FE775A;
+}
+
+/* seconda riga flottata */
+.backgr{
+  background-color:  #F4F9FD;
+    padding-bottom: 50px;
+}
+
+.column{
+  width: calc(100% / 3 - 50px);
+  min-height: 400px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 0 11px #eaf0f6;
+
+}
+.center{
+  margin:0 75px;
+}
+
+.imgcolumn{
+  height: 100px;
+  margin:20px calc(50% - 25%);
+}
+.columntext{
+  width: 80%;
+  margin: auto;
+  padding: 30px 0;
+}
+.short{
+  width: 85%;
+  margin: auto;
+  border-bottom: 2.5px solid grey;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  word-spacing: 2px;
+
+}
+
+#lastshort{
+  margin-top: 6px;
+}
+
+
+
+
+
+.motherlistcolumn{
+  min-height: 160px;
+  margin-top: 35px;
+  /* DEBUG:  */
+
+
+}
+
+.listcolumn{
+  display: block;
+  text-align: left;
+  margin: 10px 7%;
+
+
+}
+.space{
+  padding-right: 18px;
+}
+
+.columnlearmorebutton{
+  margin-bottom: 30px;
+}
+
+/* sezione maxi-tab */
+.maxi{
+  width: 100%;
+  min-height: 400px;
+  background-color: #00A8b9;
+  background-image: linear-gradient(45deg
+    ,#00a4bd,#00bda5);
+}
+.tab{
+  min-height: 450px;
+  /* debag */
+
+}
+.tabconteined{
+  text-align: center;
+  color: white;
+}
+
+
+
+
+.tabtitle{
+  width: 80%;
+  margin: auto;
+  font-size: 28px;
+  padding: 20px 0;
+
+
+}
+.tabtext{
+padding-bottom: 50px;
+word-spacing: 2px;
+
+
+
+}
+.tabbigbox{
+  min-height: 300px;
+  /* /* DEBUG:  */
+
+
+}
+
+.square{
+  width: 25%;
+  min-height: 150px;
+  padding: 20px;
+
+}
+.upper{
+  border-bottom: 1.5px solid white;
+  border-right:  1.5px solid white;
+}
+
+.lower{
+  padding-top: 20px;
+  margin-bottom: 80px;
+  border-right:  1.5px solid white;
+}
+.end{
+  border-right: none;
+}
+
+.tabnumbers{
+  font-size: 40px;
+  margin: 10px 0;
+}
+.plus{
+  font-size: 35px;
+  font-weight: normal;
+  margin-left: 10px;
+
+}
+#plusfirst{
+  margin-left: 0;
+}
+#lastsquare{
+  padding-top: 12px;
+}
+
+
+
+/* sezione secsection con due righe flottate, ogni riga da du elementi */
+
+/* prima riga flottata */
+.numberpiece{
+  width: 35%;
+  min-height: 190px;
+
+
+
+}
+.conteinerdata{
+  width: 70%;
+  min-height: 160px;
+
+  margin:0 15%;
+}
+.datanumbers{
+  font-size: 50px;
+  padding: 30px 0 20px 0;
+}
+.dataparagraph{
+  width: 80%;
+  word-spacing: 2.5px;
+  line-height: 23px;
+
+}
+
+.logopiece{
+  width: 65%;
+  min-height: 140px;
+  padding: 30px 0 15px 0;
+
+
+}
+.logobox{
+  width: 20%;
+  min-height: 60px;
+  margin:10px 0 10px 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+#atlassian{
+  background-image: url(img/atlassian.png);
+}
+#doordash{
+  background-image: url(img/doordash.png);
+}
+#g2{
+  background-image: url(img/g2crowd-logo@2x.png);
+}
+#purple{
+  background-image: url(img/purple-logo@2x.png);
+  margin-right: 0;
+}
+#subaru{
+  background-image: url(img/subaru.png);
+}
+#wistia{
+  background-image: url(img/wistia.png);
+}
+#classpass{
+  background-image: url(img/classpass.png);
+}
+#vmware{
+  background-image: url(img/vmware.png);
+  margin-right: 0;
+}
+
+/* seconda riga flottata */
+.enjoy, .smile{
+  min-height: 450px;
+  margin-top: 30px;
+}
+
+.enjoy{
+  width: 40%;
+
+}
+.enjoytitle{
+  font-size: 30px;
+  margin: 25px 0;
+}
+.enjoyparagraph{
+padding: 20px 0 80px 0;
+word-spacing: 2.5px;
+line-height: 19px;
+
+}
+
+.smile{
+  width: 60%;
+
+}
+.imgsmile{
+  width: 50%;
+  height: 380px;
+  margin-left: 50%;
+}
+
+/* inizio footer  */
+.foot{
+  /* DEBUG:  */
+ padding-top: 60px;
+ background-color: #32495B;
+}
+/* prima riga */
+.footup{
+    min-height: 330px;
+}
+.columnfoot{
+  width: calc(100% / 4 - 30px);
+  min-height: 150px;
+  margin-right: 40px;
+}
+.columnfoot:nth-child(4){
+  margin-right: 0;
+}
+
+.titlelistfootup{
+  color: white;
+  padding-bottom: 15px;
+
+}
+.linkfoot{
+  color: #cbd6e2;
+
+}
+
+.footlistup{
+  display: block;
+  margin: 10px 0;
+}
+
+.buttonfoot{
+  color:#32495B ;
+  background:#cbd6e2;
+}
+#support{
+  margin:25px 0;
+}
+.socialicons{
+  color:#B8BABB;
+  padding-right: 27px;
+}
+.socialicons:hover{
+  text-decoration: none;
+  font-size: 20px;
+
+}
+  /* seconda riga */
+.langueges{
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+}
+.linklang, .copyright{
+    color: #cbd6e2;
+
+}
+.langlist{
+  padding-top: 10px;
+}
+/* parte flottatta */
+.logofoot{
+  width: 50%;
+  min-height: 60px;
+}
+
+.creditfoot{
+  width: 50%;
+  min-height: 60px;
+  padding-left: 30%;
+}
+.chatbox{
+  /* height: 80px; */
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  z-index: 500;
+  border: 2px solid #f5f8fa;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: rgb(66, 91, 118);
+}
+.chatbox .fa-comments{
+  font-size: 40px;
+  color: #f5f8fa;
+
+}
+.chatbox:hover{
+  background-color: #FE775A;
+}
+.textarea{
+  width: 250px;
+  height: 300px;
+  position: fixed;
+  bottom: 140px;
+  right: 50px;
+  z-index: 500;
+  border-radius: 10%;
+  text-align: center;
+  background-image: url(img/logo.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  font-size: 25px;
+  opacity: 0.7;
+  display: none;
+}
+.chat:hover + .textarea{
+  display: block;
+}
