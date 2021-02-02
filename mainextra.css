@@ -241,6 +241,7 @@ nav .up{
   height: 70px;
   background-color: white;
   z-index: 500;
+  box-shadow: 0 0 11px #eaf0f6;
 }
 
 

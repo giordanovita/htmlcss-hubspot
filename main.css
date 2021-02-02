@@ -21,7 +21,7 @@ nav::after, .row::after{
 
 .search, .lang, .bookbox, .crm, .column, .numberpiece, .logopiece, .enjoy, .smile, .columnfoot, .logofoot, .creditfoot, .square, .logobox{
   float: left;
-  
+
 }
 a{
   text-decoration: none;
@@ -120,6 +120,7 @@ nav .up{
   height: 70px;
   background-color: white;
   z-index: 500;
+  box-shadow: 0 0 11px #eaf0f6;
 }
 
 
@@ -605,7 +606,7 @@ line-height: 19px;
 .langlist{
   padding-top: 10px;
 }
-/* parte flottatta */
+/* parte flottatta inferiore */
 .logofoot{
   width: 50%;
   min-height: 60px;
