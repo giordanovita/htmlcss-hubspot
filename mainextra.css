@@ -190,13 +190,14 @@ nav .up{
   background-image: url(img/logo.svg);
   background-position: bottom;
   background-repeat: no-repeat;
+  line-height: 25px;
 }
 
 
 .sftwtitle{
   padding-bottom: 10px;
 
-  /* margin-top: revert; */
+  margin-top: revert;
 
   color:#33475b;
 }
@@ -220,6 +221,7 @@ nav .up{
   height: 380px;
   background-color: #cbd6e2;
   padding: 20px;
+  line-height: 25px;
 }
 
 #marketplace{

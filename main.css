@@ -561,7 +561,7 @@ line-height: 19px;
   min-height: 150px;
   margin-right: 40px;
 }
-.columnfoot:nth-child(4){
+.columnfoot:last-child{
   margin-right: 0;
 }
 
