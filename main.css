@@ -18,8 +18,11 @@ body{
   display: table;
   clear: both;
 }
+.search, .listadrop, .actionup, .actiondouwn{
+  float: right;
+}
 
-.search, .lang, .bookbox, .crm, .column, .numberpiece, .logopiece, .enjoy, .smile, .columnfoot, .logofoot, .creditfoot, .square, .logobox{
+.lang, .bookbox, .crm, .column, .numberpiece, .logopiece, .enjoy, .smile, .columnfoot, .logofoot, .creditfoot, .square, .logobox{
   float: left;
 
 }
@@ -50,7 +53,6 @@ header nav{
 
 nav .up{
   height: 70px;
-
 }
 .backgrnavup{
     background-color: #F4F9FD;
@@ -59,15 +61,16 @@ nav .up{
 
 
 .lang{
-  width: 50%;
+  width: 20%;
   height: 70px;
-
-
+}
+.padre.lingua{
+  padding-right: 15px;
 }
 
 
 .search{
-  width: 50%;
+  width: 80%;
   height: 70px;
 
 }
@@ -77,20 +80,12 @@ nav .up{
 .fa-search:hover{
   color: blue;
 }
-.select{
-  border-right: 1px solid grey;
-  margin-right: 10px;
-  background-color: transparent;
-  border: 0;
 
-}
 .contactus{
   padding-left:  15px;
   border-left: 1px solid grey;
 }
-.actionup{
-  margin-left: 53%;
-}
+
 .button{
   border: 1px solid #FE775A;
   border-radius: 5px;
@@ -107,14 +102,22 @@ nav .up{
 #logohubhead{
   padding-top: 15px;
 }
-.price{
-  color: black;
-  font-size: 13px;
-  margin-right:7px;
+
+.listadrop .itemsdroplist{
+  margin:0 15px 0 0;
+  color: #33475b;
+
 }
-.actiondouwn ul{
-  margin-left: 16%;
+.listadrop. .itemsdroplist:nth-child(5){
+  margin:0 ;
 }
+
+.fa-chevron-down{
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+
 .backgrnavdouwn{
   width: 100%;
   height: 70px;
@@ -136,9 +139,10 @@ nav .up{
   height: 650px;
   position: relative;
   background-image: url(img/jumbotron.png);
-  background-size: contain;
+  background-size: 1400px;
   background-position: right top;
-  background-repeat: no-repeat;
+
+
 
 }
 .jambobox{
@@ -172,7 +176,7 @@ nav .up{
 }
 .greenbar{
   width: 100%;
-  height: 77px;
+  height: 50px;
   position: absolute;
   bottom: 1px;
   left: 0;
@@ -537,7 +541,7 @@ line-height: 19px;
   width: 60%;
 }
 .imgsmile{
-  width: 50%;
+  min-width: 250px;
   height: 380px;
   margin-left: 50%;
 }
