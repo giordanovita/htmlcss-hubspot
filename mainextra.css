@@ -252,10 +252,8 @@ nav .up{
   height: 650px;
   position: relative;
   background-image: url(img/jumbotron.png);
-  background-size: contain;
+  background-size: 1400px;
   background-position: right top;
-  background-repeat: no-repeat;
-
 }
 .jambobox{
   width: 30%;
@@ -288,9 +286,9 @@ nav .up{
 }
 .greenbar{
   width: 100%;
-  height: 38px;
+  height: 50px;
   position: absolute;
-  bottom: 1px;
+  bottom: 0;
   left: 0;
   background-color: #AFEBE4;
   border: 3px solid #3B5467;
